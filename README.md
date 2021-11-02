@@ -5,6 +5,7 @@
 # 下载
 
 已经上架：marketplace.visualstudio.com
+
 或者在vscode扩展中直接搜索px2rem安装即可
 
 # 快捷键
@@ -15,4 +16,7 @@ windows: `ctrl + 1`
 # 功能
 
 选中需要转换的一段，按下快捷键即可转换
+
 例： `font-size: 16px;` => `font-size: call($fn, 16);`
+
+`border: 0px 4px;` => `border: 0 call($fn, 4);`
