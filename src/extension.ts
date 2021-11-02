@@ -4,6 +4,7 @@ const convertText = (code: string): string => {
 	if (!code) {return '';};
 
 	return code.replace(/(\d+(\.\d+)?)px/g, (word: string) => {
+		if(word === '0') {return '0';};
 		return `call($fn, ${word.replace('px', '')})`;
 	});
 };

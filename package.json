@@ -2,7 +2,7 @@
   "name": "px2call",
 	"displayName": "px2call",
 	"description": "1px auto to call($fn, 1)",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "liuxueyong123",
 	"engines": {
 		"vscode": "^1.61.0"
