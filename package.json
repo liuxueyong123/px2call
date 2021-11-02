@@ -11,7 +11,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:px2call.px2vw"
+    "onCommand:px2call.px2vw"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
